@@ -24,15 +24,19 @@ export default class Deck extends Component {
     }
 
     warUpdate = (arr, playerWon) => {
+
         if (playerWon) {
             let playerDeck = this.state.player;
-            playerDeck.unshift(arr);
+            for (let i = 0; i < arr.length - 1; i++)
+                playerDeck.unshift(arr[i]);
             this.setState({ player: playerDeck });
         } else {
             let botDeck = this.state.bot;
-            botDeck.unshift(arr);
+            for (let i = 0; i < arr.length - 1; i++)
+                botDeck.unshift(arr);
             this.setState({ player: botDeck });
         }
+
     }
 
     updateDecks = (value1, value2, playerWon) => {
