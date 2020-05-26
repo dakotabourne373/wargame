@@ -32,7 +32,7 @@ export default class Deck extends Component {
         } else {
             let botDeck = this.state.bot;
             for (let i = 0; i < arr.length - 1; i++)
-                botDeck.unshift(arr);
+                botDeck.unshift(arr[i]);
             this.setState({ bot: botDeck });
         }
     }
