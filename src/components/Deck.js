@@ -24,7 +24,6 @@ export default class Deck extends Component {
     }
 
     warUpdate = (arr, playerWon) => {
-
         if (playerWon) {
             let playerDeck = this.state.player;
             for (let i = 0; i < arr.length - 1; i++)
@@ -34,9 +33,8 @@ export default class Deck extends Component {
             let botDeck = this.state.bot;
             for (let i = 0; i < arr.length - 1; i++)
                 botDeck.unshift(arr);
-            this.setState({ player: botDeck });
+            this.setState({ bot: botDeck });
         }
-
     }
 
     updateDecks = (value1, value2, playerWon) => {
