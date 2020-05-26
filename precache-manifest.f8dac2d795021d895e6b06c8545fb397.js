@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58b56590c2f0d766328e73160395d945",
+    "revision": "5792cf0ea838180a07e423f284bfaaef",
     "url": "/wargame/index.html"
   },
   {
-    "revision": "264a8396bf13af0c3302",
+    "revision": "3e1b1ccdce190f8ba544",
     "url": "/wargame/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wargame/static/js/2.cfe864b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "264a8396bf13af0c3302",
-    "url": "/wargame/static/js/main.dea98aa6.chunk.js"
+    "revision": "3e1b1ccdce190f8ba544",
+    "url": "/wargame/static/js/main.879d7747.chunk.js"
   },
   {
     "revision": "24443f649c0e6e3a939f",
